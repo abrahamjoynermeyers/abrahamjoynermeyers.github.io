@@ -1,0 +1,44 @@
+body {
+    font: 20px Georgia, serif;
+    line-height: 1.8;
+    color: black;
+  }
+
+p {font-size: 16px;}
+.margin {margin-bottom: 15px;}
+
+.container-fluid {
+  padding: 30px;
+  padding-bottom: 70px;
+}
+
+.row {
+  padding: 30px;
+}
+
+body {
+  background-color: #F0EAD6;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.topnav {
+  background-color: #646464;
+  padding: 16px 16px;
+  display: flex;
+  justify-content: space-around;
+  }
+
