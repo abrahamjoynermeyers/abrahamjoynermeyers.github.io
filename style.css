@@ -1,10 +1,11 @@
 body {
-    font: 20px Georgia, serif;
+    font: 20px Times, serif;
     line-height: 1.8;
     color: black;
   }
 
 p {font-size: 16px;}
+
 .margin {margin-bottom: 15px;}
 
 .container-fluid {
@@ -17,7 +18,7 @@ p {font-size: 16px;}
 }
 
 body {
-  background-color: #F0EAD6;
+  background-color: #ffffff;
 }
 
 .centered {
@@ -41,4 +42,34 @@ body {
   display: flex;
   justify-content: space-around;
   }
+
+   
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("fullPic.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
 
