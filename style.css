@@ -4,7 +4,10 @@ body {
     color: black;
   }
 
-p {font-size: 16px;}
+p {font-size: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
 
 .margin {margin-bottom: 15px;}
 
