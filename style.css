@@ -76,3 +76,16 @@ body {
   cursor: pointer;
 }
 
+form {
+margin-bottom: 75px;
+
+}
+
+.form-control
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background: transparent;
+  border: 1px solid black;
+}
